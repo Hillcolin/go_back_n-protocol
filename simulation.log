@@ -1,0 +1,35 @@
+2024-11-18 22:14:20,100 - 6 packets created, Window size: 4, Packet length: 32, Nth packet to be dropped: 4, Timeout interval: 1
+2024-11-18 22:14:20,100 - Sender: sending packet 0
+2024-11-18 22:14:20,100 - Sender: sending packet 1
+2024-11-18 22:14:20,100 - Sender: sending packet 2
+2024-11-18 22:14:20,100 - Sender: sending packet 3
+2024-11-18 22:14:20,100 - Sender: packet 3 dropped
+2024-11-18 22:14:20,100 - Sender: sending packet 4
+2024-11-18 22:14:20,100 - Sender: sending packet 5
+2024-11-18 22:14:20,101 - Receiver: packet 0 received
+2024-11-18 22:14:20,101 - Sender: ack 0 received
+2024-11-18 22:14:20,101 - Receiver: packet 1 received
+2024-11-18 22:14:20,101 - Sender: ack 1 received
+2024-11-18 22:14:20,101 - Receiver: packet 2 received
+2024-11-18 22:14:20,101 - Sender: ack 2 received
+2024-11-18 22:14:20,101 - Receiver: packet 4 received out of order
+2024-11-18 22:14:20,101 - Sender: duplicate ack 2 received, ignoring.
+2024-11-18 22:14:20,101 - Receiver: packet 5 received out of order
+2024-11-18 22:14:20,102 - Sender: duplicate ack 2 received, ignoring.
+2024-11-18 22:14:21,105 - Sender: packet 3 timed out
+2024-11-18 22:14:21,105 - Sender: sending packet 3
+2024-11-18 22:14:21,105 - Sender: sending packet 4
+2024-11-18 22:14:21,105 - Receiver: packet 3 received
+2024-11-18 22:14:21,105 - Sender: packet 4 dropped
+2024-11-18 22:14:21,105 - Sender: ack 3 received
+2024-11-18 22:14:21,105 - Sender: sending packet 5
+2024-11-18 22:14:21,105 - Receiver: packet 5 received out of order
+2024-11-18 22:14:21,105 - Sender: duplicate ack 3 received, ignoring.
+2024-11-18 22:14:22,109 - Sender: packet 4 timed out
+2024-11-18 22:14:22,109 - Sender: sending packet 4
+2024-11-18 22:14:22,109 - Sender: sending packet 5
+2024-11-18 22:14:22,109 - Receiver: packet 4 received
+2024-11-18 22:14:22,109 - Sender: ack 4 received
+2024-11-18 22:14:22,109 - Receiver: packet 5 received
+2024-11-18 22:14:22,109 - Sender: ack 5 received
+2024-11-18 22:14:22,210 - Sender: All packets have been sent and acknowledgments processed.
